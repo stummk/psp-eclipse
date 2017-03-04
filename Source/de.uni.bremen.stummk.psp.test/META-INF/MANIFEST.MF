@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PSP Test
+Bundle-SymbolicName: de.uni.bremen.stummk.psp.test;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: de.uni.bremen.stummk.psp;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.junit;bundle-version="4.12.0",
+ org.eclipse.jdt.launching;bundle-version="3.8.100",
+ org.eclipse.jdt.ui;bundle-version="3.12.0",
+ org.eclipse.debug.core;bundle-version="3.10.100",
+ org.eclipse.jdt.junit4.runtime;bundle-version="1.1.600"
+Bundle-ClassPath: .

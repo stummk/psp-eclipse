@@ -1,0 +1,83 @@
+Project
+ID,projectName,timestamp
+35,TESTPROJECT,2016-10-13
+
+Project Plan Summary
+36
+
+PPS Summary
+ID,title,plan,actual,toDate
+47,LoC/Hour,0.0,0.0,0.0
+48,Total Time,0.0,0.0,0.0
+49,Defects/KLOC,0.0,714.2857142857143,714.2857142857143
+50,Yield,0.0,100.0,100.0
+51,A/F Ratio,0.0,0.0,0.0
+
+PPS Program Size
+ID,title,plan,actual,toDate
+46,Total LoC,0.0,7.0,7.0
+
+PPS Time in Phase
+ID,title,plan,actual,toDate,toDatePercentage,taskID
+52,Planning,0.0,2.0,2.0,0.0
+53,Design,0.0,0.0,0.0,0.0
+54,Design Review,0.0,0.0,0.0,0.0
+55,Code,0.0,0.0,0.0,0.0
+56,Code Review,0.0,0.0,0.0,0.0
+57,Compile,0.0,0.0,0.0,0.0
+58,Test,0.0,0.0,0.0,0.0
+59,Postmortem,0.0,0.0,0.0,0.0
+60,Total,0.0,2.0,2.0,0.0
+
+PPS Defects Injected
+ID,title,plan,actual,toDate,toDatePercentage,defPerHour
+37,Planning,0.0,5.0,5.0,100.0,0.0
+38,Design,0.0,0.0,0.0,0.0,0.0
+39,Design Review,0.0,0.0,0.0,0.0,0.0
+40,Code,0.0,0.0,0.0,0.0,0.0
+41,Code Review,0.0,0.0,0.0,0.0,0.0
+42,Compile,0.0,0.0,0.0,0.0,0.0
+43,Test,0.0,0.0,0.0,0.0,0.0
+44,Postmortem,0.0,0.0,0.0,0.0,0.0
+45,Total,0.0,5.0,5.0,100.0,0.0
+
+PPS Defects Removed
+ID,title,plan,actual,toDate,toDatePercentage,defPerHour
+51,Planning,0.0,1.0,1.0,20.0,0.0
+52,Design,0.0,3.0,3.0,60.0,0.0
+53,Design Review,0.0,1.0,1.0,20.0,0.0
+54,Code,0.0,0.0,0.0,0.0,0.0
+55,Code Review,0.0,0.0,0.0,0.0,0.0
+56,Compile,0.0,0.0,0.0,0.0,0.0
+57,Test,0.0,0.0,0.0,0.0,0.0
+58,Postmortem,0.0,0.0,0.0,0.0,0.0
+59,Total,0.0,5.0,5.0,100.0,0.0
+
+Time Records
+ID,date,enddate,starttime,endtime,interruptTime,deltaTime,phase,comment
+79,2016-10-14,2016-10-14,16:59:03,16:59:04,0,1,Planning,,77
+81,2016-10-14,2016-10-14,16:59:14,16:59:15,0,1,Planning,,77
+
+Defect Records
+ID,number,date,type,injectPhase,removePhase,fixTime,description,fixTimeManual,taskID,filePath
+70,0,2016-10-14,"Build, Package",Planning,Design,0,,true,,src/testing/Main.java
+72,0,2016-10-14,"Build, Package",Planning,Design Review,0,,true,,src/testing
+73,0,2016-10-14,"Build, Package",Planning,Design,0,,true,,src
+74,0,2016-10-14,"Build, Package",Planning,Design,0,,true,,testing
+75,0,2016-10-14,"Build, Package",Planning,Planning,0,,true,,src/ads
+
+PIP
+ID,problemDescription,proposalDescription,notes
+
+Test Report
+ID,name,expectedResult,actualResult
+
+Tasks
+ID,name,phase,plannedTime,plannedValue,plannedCumulativeHours,plannedCumulativeValues,plannedFinishDate,planLoc,estimatedDefectInjected,estimatedDefectRemoved,actualDate,actualEarnedValue,actualCumulativeEarnedValue,actualTime,isComplete,status,lastChange,priority,type
+77,sad,Planning,0,0.0,0,0.0,2016-10-24,0,0,0,,0.0,0.0,2,false,Stopped,,1,Task
+
+Schedule Plan
+ID,weekNumber,dateMonday,plannedHours,cumulativePlannedHours,cumulativeEarnedValue,actualDirectHours,actualCumulativeHour,actualEarnedValue
+80,0,2016-10-10,0,0,0.0,2,2,0.0
+78,1,2016-10-24,0,0,0.0,0,2,0.0
+
