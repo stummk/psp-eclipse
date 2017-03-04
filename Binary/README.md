@@ -17,8 +17,9 @@ Um das Plugin in Eclipse zu benutzen muss es in den /dropins-Ordner im Installat
   * Als Seite die Eclipse Update Seite wählen und nach Eclipse Java Development Tools suchen.
    
   ---
+
 # Installation instructions
-  To use the plugin in Eclipse it must be copied to the / dropins folder in the installation directory of Eclipse.
+To use the plugin in Eclipse it must be copied to the / dropins folder in the installation directory of Eclipse.
   
 # Requirements for use
 1. Java 1.8 or higher is prerequisite (tested under 1.8.0_111)
