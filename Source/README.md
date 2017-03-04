@@ -1,39 +1,84 @@
+[Deutsch](#beschreibung) | [English](#description)
+
+# Beschreibung
 In diesem Ordner befinden sich der Quellcode des Plugins. Der Quellcode wird in mehrere Projekte unterteilt.
-Dies liegt unteranderem an der Verwendung von Maven-Dependencies und der Eclipse-Manifest-Dependencies.
-Eine n‰here Erl‰uterung dazu kann in der BAchelorarbeit gefunden werden. Hier wird kurz die Bnezung der Projekte beschrieben.
+Dies liegt unteranderem an der Verwendung von Maven-Dependencies und der Eclipse-Manifest-Dependencies. Stichpunkt hier ist [Tycho](https://eclipse.org/tycho/), hier wird nicht n√§her darauf eingegangen.
+Hier wird kurz die Benutzung der Projekte beschrieben.
 
-Systemvorraussetzungen:
-Es gelten einige Systemvorrausetzungen, um den Quellcode des Plugins bearebiten zu kˆnnen.
-	- Java der Version 1.8 oder hˆher muss instlliert sein.
-	- Maven 3.3.9 oder hˆher muss installiert sein.
-	- Eclipse in der Version 4.6 (Neon) mit instlliertem Maven Plugin 
-	  Um den Quellcode zu bearbeiten kann die Eclipse SDK benutzt werden.
-	  Wird eine Eclipse IDE benutzt m¸ssen die folgenden Eclipse-Plugins installiert sein:
-		- Java Development Tools, JDT
-		- Plug-in Development Environment, PDE
-	- Alle Projekte in dem Source-Ordner m¸ssen sich in dem gleichen Wurzelverzeichnis befinden
+### Systemvorraussetzungen:
+Es gelten einige Systemvorrausetzungen, um den Quellcode des Plugins bearbeiten zu k√∂nnen.
+* Java der Version 1.8 oder h√∂her muss instlliert sein.
+* Maven 3.3.9 oder h√∂her muss installiert sein.
+* Eclipse in der Version 4.6 (Neon) mit instlliertem Maven Plugin 
+* Um den Quellcode zu bearbeiten kann die Eclipse SDK benutzt werden.
+* Wird eine Eclipse IDE benutzt m√ºssen die folgenden Eclipse-Plugins installiert sein:
+  * Java Development Tools, JDT
+  * Plug-in Development Environment, PDE
+  * Alle Projekte in dem Source-Ordner m√ºssen sich in dem gleichen Wurzelverzeichnis befinden
 
-Importieren der Projekte:
-- Die Projekte kˆnnen in Eclipse ¸ber File -> Import -> Existing Maven Projects importiert werden.
-- Beim importieren muss nur das de.uni.bremen.stummk.psp.parent ausgew‰hlt werden. Alle anderen Projekte werden automatisch nachgeladen.
+### Importieren der Projekte:
+* Die Projekte k√∂nnen in Eclipse √ºber File -> Import -> Existing Maven Projects importiert werden.
+* Beim importieren muss nur das de.uni.bremen.stummk.psp.parent ausgew√§hlt werden. Alle anderen Projekte werden automatisch nachgeladen.
 
-Bauen der Projekte:
-- Um das Plugin zu bauen kann das de.uni.bremen.stummk.psp.parent Projekt ¸ber das Kontextmen¸ in Eclipse gebaut werden.
-	Projekt ausw‰hlen -> Run As -> Maven build. Hier die Parameter "clean install" angeben.
-- Mit Maven kann das Projekt mit dem Befehl "maven clean install" gebaut werden.
-- Wenn das de.uni.bremen.stummk.psp.parent Projekt gebaut wird, wird das Plugin gebaut.
-- Das gebaute Plugin kann in de.uni.bremen.stummk.psp/target/ gefunden werden.
+### Bauen der Projekte:
+* Um das Plugin zu bauen kann das de.uni.bremen.stummk.psp.parent Projekt √ºber das Kontextmen√º in Eclipse gebaut werden. 
+  * Projekt ausw√§hlen -> Run As -> Maven build. Hier die Parameter "clean install" angeben.
+* Mit Maven kann das Projekt mit dem Befehl "maven clean install" gebaut werden.
+* Wenn das de.uni.bremen.stummk.psp.parent Projekt gebaut wird, wird das Plugin gebaut.
+* Das gebaute Plugin kann in de.uni.bremen.stummk.psp/target/ gefunden werden.
 
-testen:
-- Das Projekt de.uni.bremen.stummk.psp.test beinhaltet alle Tests
-- Um zu testen kann ¸ber das Kontextmen¸: Run as -> JUnit Plug-in Test gew‰hlt werden.
+### Testen:
+* Das Projekt de.uni.bremen.stummk.psp.test beinhaltet alle Tests
+* Um zu Testen kann √ºber das Kontextmen√º: Run as -> JUnit Plug-in Test gew√§hlt werden.
 
-Maven Dependecies:
-- Maven Dependencies kˆnnen in dem Projekt de.uni.bremen.stummk.psp.jar.dependency, wie ¸blich in der POM, eingetraen werden.
-- Um die Dependencies in dem Plugin-Projekt zu verwenden, m¸ssen folgende Schritte gemacht werden:
-	1. Das Projekt de.uni.bremen.stummk.psp.jar.dependency bauen enweder mit "maven clean install" oder in Eclipse ¸ber Run As -> Maven build
-	2. Die Dependencies werden automatisch nach das Projekt de.uni.bremen.stummk.psp/resources/lib kopiert.
-	3. Die Libraries m¸ssen noch manuell beim Projekt de.uni.bremen.stummk.psp in die Classpath eingetragen werden:
-		- Dazu plugin.xml ¸ber einen Doppelklick ausw‰hlen
-		- Im Editor die Tab "Runtime" ausw‰hlen
-		- Unter dem Punkt "Classpath" kˆnnen die Neuen, aus dem Maven-Repository geladene, Libraries dem Projekt hinzugef¸gt werden.
+### Maven Dependecies:
+* Maven Dependencies k√∂nnen in dem Projekt de.uni.bremen.stummk.psp.jar.dependency, wie √ºblich in der POM, eingetraen werden.
+* Um die Dependencies in dem Plugin-Projekt zu verwenden, m√ºssen folgende Schritte gemacht werden:
+  1. Das Projekt de.uni.bremen.stummk.psp.jar.dependency bauen enweder mit "maven clean install" oder in Eclipse √ºber Run As -> Maven build
+  2. Die Dependencies werden automatisch nach das Projekt de.uni.bremen.stummk.psp/resources/lib kopiert.
+  3. Die Libraries m√ºssen noch manuell beim Projekt de.uni.bremen.stummk.psp in die Classpath eingetragen werden:
+    * Dazu plugin.xml √ºber einen Doppelklick ausw√§hlen
+    * Im Editor die Tab "Runtime" ausw√§hlen
+    * Unter dem Punkt "Classpath" k√∂nnen die Neuen, aus dem Maven-Repository geladene, Libraries dem Projekt hinzugef√ºgt werden.
+		
+---
+# Description
+In diesem Ordner befinden sich der Quellcode des Plugins. Der Quellcode wird in mehrere Projekte unterteilt.
+Dies liegt unteranderem an der Verwendung von Maven-Dependencies und der Eclipse-Manifest-Dependencies. Stichpunkt hier ist [Tycho](https://eclipse.org/tycho/), hier wird nicht n√§her darauf eingegangen.
+Hier wird kurz die Benutzung der Projekte beschrieben.
+
+### System requirements
+Es gelten einige Systemvorrausetzungen, um den Quellcode des Plugins bearbeiten zu k√∂nnen.
+* Java der Version 1.8 oder h√∂her muss instlliert sein.
+* Maven 3.3.9 oder h√∂her muss installiert sein.
+* Eclipse in der Version 4.6 (Neon) mit instlliertem Maven Plugin 
+* Um den Quellcode zu bearbeiten kann die Eclipse SDK benutzt werden.
+* Wird eine Eclipse IDE benutzt m√ºssen die folgenden Eclipse-Plugins installiert sein:
+  * Java Development Tools, JDT
+  * Plug-in Development Environment, PDE
+  * Alle Projekte in dem Source-Ordner m√ºssen sich in dem gleichen Wurzelverzeichnis befinden
+  
+### Import the projects
+* Die Projekte k√∂nnen in Eclipse √ºber File -> Import -> Existing Maven Projects importiert werden.
+* Beim importieren muss nur das de.uni.bremen.stummk.psp.parent ausgew√§hlt werden. Alle anderen Projekte werden automatisch nachgeladen.
+
+### Building projects
+* Um das Plugin zu bauen kann das de.uni.bremen.stummk.psp.parent Projekt √ºber das Kontextmen√º in Eclipse gebaut werden. 
+  * Projekt ausw√§hlen -> Run As -> Maven build. Hier die Parameter "clean install" angeben.
+* Mit Maven kann das Projekt mit dem Befehl "maven clean install" gebaut werden.
+* Wenn das de.uni.bremen.stummk.psp.parent Projekt gebaut wird, wird das Plugin gebaut.
+* Das gebaute Plugin kann in de.uni.bremen.stummk.psp/target/ gefunden werden.
+
+### Testing
+* Das Projekt de.uni.bremen.stummk.psp.test beinhaltet alle Tests
+* Um zu Testen kann √ºber das Kontextmen√º: Run as -> JUnit Plug-in Test gew√§hlt werden.
+
+### Maven Dependecies
+* Maven Dependencies k√∂nnen in dem Projekt de.uni.bremen.stummk.psp.jar.dependency, wie √ºblich in der POM, eingetraen werden.
+* Um die Dependencies in dem Plugin-Projekt zu verwenden, m√ºssen folgende Schritte gemacht werden:
+  1. Das Projekt de.uni.bremen.stummk.psp.jar.dependency bauen enweder mit "maven clean install" oder in Eclipse √ºber Run As -> Maven build
+  2. Die Dependencies werden automatisch nach das Projekt de.uni.bremen.stummk.psp/resources/lib kopiert.
+  3. Die Libraries m√ºssen noch manuell beim Projekt de.uni.bremen.stummk.psp in die Classpath eingetragen werden:
+    * Dazu plugin.xml √ºber einen Doppelklick ausw√§hlen
+    * Im Editor die Tab "Runtime" ausw√§hlen
+    * Unter dem Punkt "Classpath" k√∂nnen die Neuen, aus dem Maven-Repository geladene, Libraries dem Projekt hinzugef√ºgt werden.
