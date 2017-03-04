@@ -35,6 +35,7 @@ Der Schedule Plan, der eine Wochenübersicht in einem Softwareprojekt darstellt 
 Die Project Plan Summary stellt eine Gesamtübersicht über einen Projekt dar. Es wird automatisch generiert und alle Berechnungen werden automatisch ausgeführt.
 
 
+
 Das [Benutzerhandbuch](https://github.com/stummk/psp-eclipse/wiki) beschreibt eine nähere Benutzung des Plugins.
 
 Eine gebaute Version kann in dem Ordner [Binary](./Binary) gefunden werden. Nähere Informationen zur Installation und Midnestanforderungen können [hier](./Binary/README.md) entnommen werden. 
@@ -75,6 +76,8 @@ The Schedule plan, which is a weekly overview in a software project, is generate
 
 #### Calculations for Project Plan Summary
 The Project Plan Summary provides a general overview of a project. It is automatically generated and all calculations are executed automatically.
+
+
 
 
 The [User manual](https://github.com/stummk/psp-eclipse/wiki) describes a closer use of the plugin.
