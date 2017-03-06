@@ -26,13 +26,13 @@ Die Anzahl der geschriebenen Codezeilen werden in diesem Plugin automatisch gez�
 Der Test-Report stellt die ausgeführten Unit-Tests in einem Softwareprojekt dar. Dieser wird automatisch generiert, wenn Unit-Tests ausgeführt werden. Zur Zeit werden nur Java-Unit Tests unterstützt.
 
 #### Earned Value Tracking
-Das Plugin ermöglicht die automatisierte Erfassung des Projektfortschrittes. Die Punktzahl wird beim erstellen einer Task berechnet und beim Abschließen der Task gutgeschrieben.
+Das Plugin ermöglicht die automatisierte Erfassung des Projektfortschrittes. Die Punktzahl wird beim Erstellen einer Task berechnet und beim Abschließen der Task gutgeschrieben.
 
 #### Schedule Plan Generierung
-Der Schedule Plan, der eine Wochenübersicht in einem Softwareprojekt darstellt wird komplett automatisch generiert.
+Der Schedule Plan, der eine Wochenübersicht in einem Softwareprojekt darstellt, wird komplett automatisch generiert.
 
 #### Berechnungen für Project Plan Summary
-Die Project Plan Summary stellt eine Gesamtübersicht über einen Projekt dar. Es wird automatisch generiert und alle Berechnungen werden automatisch ausgeführt.
+Die Project Plan Summary stellt eine Gesamtübersicht über ein Projekt dar. Es wird automatisch generiert und alle Berechnungen werden automatisch ausgeführt.
 
 
 #### Weitere Informationen
@@ -40,7 +40,7 @@ Das [Benutzerhandbuch](https://github.com/stummk/psp-eclipse/wiki/Benutzerhandbu
 
 Eine gebaute Version kann in dem Ordner [Binary](./Binary) gefunden werden. Nähere Informationen zur Installation und Midnestanforderungen können [hier](./Binary/README.md) entnommen werden. 
 
-Der Quellcode kann in dem Ordner [Source](./Source) gefunden werden. Wie dieser zu Benutzen ist, kann aus der [README](./Source/README.md) entnommen werden.
+Der Quellcode kann in dem Ordner [Source](./Source) gefunden werden. Wie dieser zu benutzen ist, kann aus der [README](./Source/README.md) entnommen werden.
 
 ---
 
