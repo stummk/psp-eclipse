@@ -1,5 +1,5 @@
 [![Java](https://img.shields.io/badge/Java-1.8%2B-lightgrey.svg?style=flat-square)](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-[![Eclipse](https://img.shields.io/badge/Eclipse-Neon (4.6%2B)-lightgrey.svg?style=flat-square)](http://www.eclipse.org/downloads/eclipse-packages/)
+[![Eclipse](https://img.shields.io/badge/Eclipse-Neon-lightgrey.svg?style=flat-square)](http://www.eclipse.org/downloads/eclipse-packages/)
 [![GitHub release](https://img.shields.io/badge/release-v1.0-blue.svg?style=flat-square)](https://github.com/stummk/psp-eclipse/releases)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://github.com/stummk/psp-eclipse/blob/master/LICENSE)
 
